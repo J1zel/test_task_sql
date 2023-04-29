@@ -20,8 +20,7 @@ CREATE SCHEMA geo_test
     AUTHORIZATION postgres;
 	
 -- 2. 3. Создание таблицы test_point с атрибутами и первичным ключом id
-ALTER TABLE IF EXISTS geo_test.test_point
- OWNER to postgres;
+DROP TABLE IF EXISTS geo_test.test_point;
 CREATE TABLE geo_test.test_point
 (
     id integer NOT NULL,
@@ -33,8 +32,7 @@ CREATE TABLE geo_test.test_point
 );
   
 -- 4. Создание таблицы task с атрибутами
-ALTER TABLE IF EXISTS geo_test.task
- OWNER to postgres;
+DROP TABLE IF EXISTS geo_test.test_point;
 CREATE TABLE geo_test.task
 (
     id integer NOT NULL,
