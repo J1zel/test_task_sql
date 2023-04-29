@@ -23,7 +23,7 @@ z с двойной точностью
 4. Выведите поле geom для всех записей таблицы в формате GeoJSON, используя справку к PostGIS.
 
 ## Источники используемые для решения задач.
-https://postgis.net/docs/
-https://postgrespro.ru/docs/postgresql/15/index
+1. https://postgis.net/docs/
+2. https://postgrespro.ru/docs/postgresql/15/index
 
 
